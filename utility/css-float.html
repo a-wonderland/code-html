@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>CSS | Float</title>
+    <style>
+        body {
+            background: #ddd;
+        }
+        
+        #warp {
+            width: 1024px;
+            overflow: visible;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            position: relative;
+            display: block;
+            background: #24292e;
+            height: 40%;
+            line-height: 40px;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 2px 2px;
+            text-align: center;
+            width: 20%;
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            text-decoration: none;
+        }
+        
+        #h {
+            border: none;
+            background: #24292e;
+            line-height: 42px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="warp">
+        <ul>
+
+            <li id="h">Important</li>
+            <li><a>List</a></li>
+            <li><a>ABCDEFGHIJKLMN List</a></li>
+            <li><a>ABCDEFGHIJ List</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
